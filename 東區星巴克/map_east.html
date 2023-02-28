@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_24ff73703b67489ca770bce82653413b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_24ff73703b67489ca770bce82653413b" ></div>
+        
+</body>
+<script>    
+    
+            var map_24ff73703b67489ca770bce82653413b = L.map(
+                "map_24ff73703b67489ca770bce82653413b",
+                {
+                    center: [23.00049, 120.22025],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4e9eee687a584731aee7c2c4665209cb = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+            var circle_25733ccbf8204ad7aa3c3e0ffc14dc9f = L.circle(
+                [23.00049, 120.22025],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.5, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+        var popup_4d6e4ad890b54c27a3446f47e5b5ee3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c70602634de44d0bc0d6373eeb8b507 = $(`<div id="html_6c70602634de44d0bc0d6373eeb8b507" style="width: 100.0%; height: 100.0%;">5km</div>`)[0];
+            popup_4d6e4ad890b54c27a3446f47e5b5ee3e.setContent(html_6c70602634de44d0bc0d6373eeb8b507);
+        
+
+        circle_25733ccbf8204ad7aa3c3e0ffc14dc9f.bindPopup(popup_4d6e4ad890b54c27a3446f47e5b5ee3e)
+        ;
+
+        
+    
+    
+            var circle_6e82649b8bb34058acc65a7d655d18eb = L.circle(
+                [23.00049, 120.22025],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.5, "radius": 4000, "stroke": true, "weight": 3}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+        var popup_6fa6c943433f4e408c74fa990655a733 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d805c202387941b199875aa270b80554 = $(`<div id="html_d805c202387941b199875aa270b80554" style="width: 100.0%; height: 100.0%;">4km</div>`)[0];
+            popup_6fa6c943433f4e408c74fa990655a733.setContent(html_d805c202387941b199875aa270b80554);
+        
+
+        circle_6e82649b8bb34058acc65a7d655d18eb.bindPopup(popup_6fa6c943433f4e408c74fa990655a733)
+        ;
+
+        
+    
+    
+            var circle_3bc36bfcb7d84f45bbb7597b01826e9e = L.circle(
+                [23.00049, 120.22025],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.5, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+        var popup_eee7ac0d598f42f3ba1beb1e541ec9d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f87721fd4334db48eb944fa8b3e027a = $(`<div id="html_0f87721fd4334db48eb944fa8b3e027a" style="width: 100.0%; height: 100.0%;">3km</div>`)[0];
+            popup_eee7ac0d598f42f3ba1beb1e541ec9d4.setContent(html_0f87721fd4334db48eb944fa8b3e027a);
+        
+
+        circle_3bc36bfcb7d84f45bbb7597b01826e9e.bindPopup(popup_eee7ac0d598f42f3ba1beb1e541ec9d4)
+        ;
+
+        
+    
+    
+            var circle_3999ca4a45f94b338ab39cc88f4de388 = L.circle(
+                [23.00049, 120.22025],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.5, "radius": 2000, "stroke": true, "weight": 3}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+        var popup_5b2417cbdc0d4983a1746a85eb18dd48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_893e7f5822944ba28064780d041f52b1 = $(`<div id="html_893e7f5822944ba28064780d041f52b1" style="width: 100.0%; height: 100.0%;">2km</div>`)[0];
+            popup_5b2417cbdc0d4983a1746a85eb18dd48.setContent(html_893e7f5822944ba28064780d041f52b1);
+        
+
+        circle_3999ca4a45f94b338ab39cc88f4de388.bindPopup(popup_5b2417cbdc0d4983a1746a85eb18dd48)
+        ;
+
+        
+    
+    
+            var circle_9d6be09e45e741ad982a4bdaab135428 = L.circle(
+                [23.00049, 120.22025],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.5, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+        var popup_b4fc431b0a1c458687ed77d7fe1f4b68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b5cc69736dc482a968373b8f2d12898 = $(`<div id="html_3b5cc69736dc482a968373b8f2d12898" style="width: 100.0%; height: 100.0%;">1km</div>`)[0];
+            popup_b4fc431b0a1c458687ed77d7fe1f4b68.setContent(html_3b5cc69736dc482a968373b8f2d12898);
+        
+
+        circle_9d6be09e45e741ad982a4bdaab135428.bindPopup(popup_b4fc431b0a1c458687ed77d7fe1f4b68)
+        ;
+
+        
+    
+    
+            var marker_07e01f5c5c8c49768b746135c9217d0e = L.marker(
+                [22.978343, 120.232891],
+                {}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+        var popup_85ec14188d894b93b1c8a066fd473a91 = L.popup({"maxWidth": 200});
+
+        
+            var html_08584f7a227a4e4386696a3a57065636 = $(`<div id="html_08584f7a227a4e4386696a3a57065636" style="width: 100.0%; height: 100.0%;"><font size="3.5"><b>台南東門門市</b>                        <p>台南市東區東門路三段138號</p>                            <p>06-2673344</p>                                <p>(一~日)07:00~22:00</p>                                    </font></div>`)[0];
+            popup_85ec14188d894b93b1c8a066fd473a91.setContent(html_08584f7a227a4e4386696a3a57065636);
+        
+
+        marker_07e01f5c5c8c49768b746135c9217d0e.bindPopup(popup_85ec14188d894b93b1c8a066fd473a91)
+        ;
+
+        
+    
+    
+            var marker_7e9a904a33174deba0c4ed66af981440 = L.marker(
+                [22.973872, 120.221084],
+                {}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+        var popup_21a589c38bc240eca0dbddcf24f44b46 = L.popup({"maxWidth": 200});
+
+        
+            var html_65d6682716054047a25c71f89668ab35 = $(`<div id="html_65d6682716054047a25c71f89668ab35" style="width: 100.0%; height: 100.0%;"><font size="3.5"><b>台南德安門市</b>                        <p>台南市東區中華東路三段360號1樓</p>                            <p>06-290-9982</p>                                <p>(一~日)07:00~22:00</p>                                    </font></div>`)[0];
+            popup_21a589c38bc240eca0dbddcf24f44b46.setContent(html_65d6682716054047a25c71f89668ab35);
+        
+
+        marker_7e9a904a33174deba0c4ed66af981440.bindPopup(popup_21a589c38bc240eca0dbddcf24f44b46)
+        ;
+
+        
+    
+    
+            var marker_c7bbc32185fd45bbbeac3279a320aa7c = L.marker(
+                [22.995255, 120.218129],
+                {}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+        var popup_32cef8f3015c4544bb6b395a7bc8a95f = L.popup({"maxWidth": 200});
+
+        
+            var html_5180328e0b2c49cfa1d394c93b8c9ed2 = $(`<div id="html_5180328e0b2c49cfa1d394c93b8c9ed2" style="width: 100.0%; height: 100.0%;"><font size="3.5"><b>成大會館門市</b>                        <p>台南市東區勝利路118號1F</p>                            <p>06-2084274</p>                                <p>(一~日)08:00~17:00</p>                                    </font></div>`)[0];
+            popup_32cef8f3015c4544bb6b395a7bc8a95f.setContent(html_5180328e0b2c49cfa1d394c93b8c9ed2);
+        
+
+        marker_c7bbc32185fd45bbbeac3279a320aa7c.bindPopup(popup_32cef8f3015c4544bb6b395a7bc8a95f)
+        ;
+
+        
+    
+    
+            var marker_dd228ddec1694a9da2bb822f0d48cdaf = L.marker(
+                [22.984132, 120.217701],
+                {}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+        var popup_2eb332496b464c07bc5b1baf39194026 = L.popup({"maxWidth": 200});
+
+        
+            var html_e17b2c8494ec44218ee40cf355c226e0 = $(`<div id="html_e17b2c8494ec44218ee40cf355c226e0" style="width: 100.0%; height: 100.0%;"><font size="3.5"><b>府榮門市</b>                        <p>台南市東區長榮路一段181號1樓</p>                            <p>06-200-4907</p>                                <p>(一~日)07:00~21:30</p>                                    </font></div>`)[0];
+            popup_2eb332496b464c07bc5b1baf39194026.setContent(html_e17b2c8494ec44218ee40cf355c226e0);
+        
+
+        marker_dd228ddec1694a9da2bb822f0d48cdaf.bindPopup(popup_2eb332496b464c07bc5b1baf39194026)
+        ;
+
+        
+    
+    
+            var marker_39d3436f5b7c4beab7ef8713edef5db6 = L.marker(
+                [22.989877, 120.244296],
+                {}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+        var popup_c9d74a1abb1e44ab9320eb9d8e51ae3f = L.popup({"maxWidth": 200});
+
+        
+            var html_63944e562e4f45efb1508b1ee668fceb = $(`<div id="html_63944e562e4f45efb1508b1ee668fceb" style="width: 100.0%; height: 100.0%;"><font size="3.5"><b>虎尾寮門市</b>                        <p>台南市東區裕農路930號</p>                            <p>06-3311592</p>                                <p>(一~日)07:00~22:00</p>                                    </font></div>`)[0];
+            popup_c9d74a1abb1e44ab9320eb9d8e51ae3f.setContent(html_63944e562e4f45efb1508b1ee668fceb);
+        
+
+        marker_39d3436f5b7c4beab7ef8713edef5db6.bindPopup(popup_c9d74a1abb1e44ab9320eb9d8e51ae3f)
+        ;
+
+        
+    
+    
+            var marker_c4e82db4391d4fa7acd250e46ca3aa96 = L.marker(
+                [22.990568, 120.23364],
+                {}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+        var popup_e488e7b9fba94034a6170db9d4ca0b3a = L.popup({"maxWidth": 200});
+
+        
+            var html_d3c61cc20f854e91835b446047f6109a = $(`<div id="html_d3c61cc20f854e91835b446047f6109a" style="width: 100.0%; height: 100.0%;"><font size="3.5"><b>南紡1F門市</b>                        <p>台南市東區中華東路一段366號1F</p>                            <p>06-2084012</p>                                <p>(一~日)11:00~22:00</p>                                    </font></div>`)[0];
+            popup_e488e7b9fba94034a6170db9d4ca0b3a.setContent(html_d3c61cc20f854e91835b446047f6109a);
+        
+
+        marker_c4e82db4391d4fa7acd250e46ca3aa96.bindPopup(popup_e488e7b9fba94034a6170db9d4ca0b3a)
+        ;
+
+        
+    
+    
+            var marker_ebfb8517d3654fc4965c26fe2b587608 = L.marker(
+                [22.989878, 120.233297],
+                {}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+        var popup_99fa6d02e72a496e97d0c8d11cd0ea9d = L.popup({"maxWidth": 200});
+
+        
+            var html_ffd81a96993c4aa48138a5935ac71cf1 = $(`<div id="html_ffd81a96993c4aa48138a5935ac71cf1" style="width: 100.0%; height: 100.0%;"><font size="3.5"><b>南紡門市</b>                        <p>台南市東區中華東路一段366號2樓</p>                            <p>06-2084697</p>                                <p>(一~日) 11:00-22:00</p>                                    </font></div>`)[0];
+            popup_99fa6d02e72a496e97d0c8d11cd0ea9d.setContent(html_ffd81a96993c4aa48138a5935ac71cf1);
+        
+
+        marker_ebfb8517d3654fc4965c26fe2b587608.bindPopup(popup_99fa6d02e72a496e97d0c8d11cd0ea9d)
+        ;
+
+        
+    
+    
+            var marker_b47b73a3d77446eba744288ff019d868 = L.marker(
+                [22.996499, 120.213888],
+                {}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+        var popup_32e03eb4a3944c6986fa23b170ebffce = L.popup({"maxWidth": 200});
+
+        
+            var html_0faedb78767343619fe9dacf16143cf3 = $(`<div id="html_0faedb78767343619fe9dacf16143cf3" style="width: 100.0%; height: 100.0%;"><font size="3.5"><b>南遠門市</b>                        <p>台南市東區前鋒路210號</p>                            <p>(06) 275-1157</p>                                <p>(一~日)11:00~22:00</p>                                    </font></div>`)[0];
+            popup_32e03eb4a3944c6986fa23b170ebffce.setContent(html_0faedb78767343619fe9dacf16143cf3);
+        
+
+        marker_b47b73a3d77446eba744288ff019d868.bindPopup(popup_32e03eb4a3944c6986fa23b170ebffce)
+        ;
+
+        
+    
+    
+            var marker_c1c8134ed1be4ae5a7fe8d7f9bc191ef = L.marker(
+                [22.995779, 120.221751],
+                {}
+            ).addTo(map_24ff73703b67489ca770bce82653413b);
+        
+    
+        var popup_a3822b2ca8294535a8cf13333a8b3c56 = L.popup({"maxWidth": 200});
+
+        
+            var html_bc069daa71d84407be66f8aa6d9a79f8 = $(`<div id="html_bc069daa71d84407be66f8aa6d9a79f8" style="width: 100.0%; height: 100.0%;"><font size="3.5"><b>長榮門市</b>                        <p>台南市東區長榮路三段139號</p>                            <p>06-200-5550</p>                                <p>(一~日)07:00~21:30</p>                                    </font></div>`)[0];
+            popup_a3822b2ca8294535a8cf13333a8b3c56.setContent(html_bc069daa71d84407be66f8aa6d9a79f8);
+        
+
+        marker_c1c8134ed1be4ae5a7fe8d7f9bc191ef.bindPopup(popup_a3822b2ca8294535a8cf13333a8b3c56)
+        ;
+
+        
+    
+</script>

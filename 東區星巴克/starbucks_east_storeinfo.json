@@ -1,0 +1,65 @@
+[
+    {
+        "storename": "台南東門門市",
+        "coordinate": "22.978343,120.232891",
+        "storeaddress": "台南市東區東門路三段138號",
+        "storetel": "06-2673344",
+        "storehour": "(一~日)07:00~22:00"
+    },
+    {
+        "storename": "台南德安門市",
+        "coordinate": "22.973872,120.221084",
+        "storeaddress": "台南市東區中華東路三段360號1樓",
+        "storetel": "06-290-9982",
+        "storehour": "(一~日)07:00~22:00"
+    },
+    {
+        "storename": "成大會館門市",
+        "coordinate": "22.995255,120.218129",
+        "storeaddress": "台南市東區勝利路118號1F",
+        "storetel": "06-2084274",
+        "storehour": "(一~日)08:00~17:00"
+    },
+    {
+        "storename": "府榮門市",
+        "coordinate": "22.984132,120.217701",
+        "storeaddress": "台南市東區長榮路一段181號1樓",
+        "storetel": "06-200-4907",
+        "storehour": "(一~日)07:00~21:30"
+    },
+    {
+        "storename": "虎尾寮門市",
+        "coordinate": "22.989877,120.244296",
+        "storeaddress": "台南市東區裕農路930號",
+        "storetel": "06-3311592",
+        "storehour": "(一~日)07:00~22:00"
+    },
+    {
+        "storename": "南紡1F門市",
+        "coordinate": "22.990568,120.233640",
+        "storeaddress": "台南市東區中華東路一段366號1F",
+        "storetel": "06-2084012",
+        "storehour": "(一~日)11:00~22:00"
+    },
+    {
+        "storename": "南紡門市",
+        "coordinate": "22.989878,120.233297",
+        "storeaddress": "台南市東區中華東路一段366號2樓",
+        "storetel": "06-2084697",
+        "storehour": "(一~日) 11:00-22:00"
+    },
+    {
+        "storename": "南遠門市",
+        "coordinate": "22.996499,120.213888",
+        "storeaddress": "台南市東區前鋒路210號",
+        "storetel": "(06) 275-1157",
+        "storehour": "(一~日)11:00~22:00"
+    },
+    {
+        "storename": "長榮門市",
+        "coordinate": "22.995779,120.221751",
+        "storeaddress": "台南市東區長榮路三段139號",
+        "storetel": "06-200-5550",
+        "storehour": "(一~日)07:00~21:30"
+    }
+]
